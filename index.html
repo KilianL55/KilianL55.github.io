@@ -1,40 +1,122 @@
-{{> partials/header}}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <base href="http://127.0.0.1:8080/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+    </style>
+    <title>Levasseur Kilian</title>
+</head>
 
 <div class="main-container">
-    <div class="card-container">
-        <div class="ui card">
-            <div class="content">
-                <div class="header">Compétences</div>
-                <div class="meta">
-                    <span>Compétences</span>
+    <body>
+    <main>
+        <div id="app">
+            <header>
+                <div class="ui vertical masthead center aligned segment">
+                    <div class="ui container">
+                        <div class="ui segment">
+                            <div class="ui secondary pointing menu">
+                                <a class="item" href="./portfolio/">
+                                    Accueil
+                                </a>
+                                <div class="right menu">
+                                    <a class="item" href="./portfolio/projets/1">
+                                        Projets
+                                    </a>
+                                    <a class="item" href="./portfolio/competences">
+                                        Compétences
+                                    </a>
+                                    <a class="item" href="./portfolio/veille">
+                                        Veille informationnelle
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <p>Présentation des compétences avec projets associés</p>
-                <a href="/portfolio/competences" class="ui blue basic button">Plus de détails</a>
+            </header>
+            <div class="main-container">
+                <div class="card-container">
+                    <div class="ui card">
+                        <div class="content">
+                            <div class="header">Compétences</div>
+                            <div class="meta">
+                                <span>Compétences</span>
+                            </div>
+                            <p>Présentation des compétences avec projets associés</p>
+                            <a href="/portfolio/competences" class="ui blue basic button">Plus de détails</a>
+                        </div>
+                    </div>
+                    <div class="ui card">
+                        <div class="content">
+                            <div class="header">Projets</div>
+                            <div class="meta">
+                                <span>Projets/Preuves</span>
+                            </div>
+                            <p>Présentation de tout les projets avec les preuves associées</p>
+                            <a href="/portfolio/projets/1" class="ui blue basic button">Plus de détails</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="ui card">
+                        <div class="content">
+                            <div class="header">Veille juridique</div>
+                            <div class="meta">
+                                <span>Veille juridique</span>
+                            </div>
+                            <p>Présentation de ma veille juridique et informationnelle</p>
+                            <a href="/portfolio/veille" class="ui blue basic button">Plus de détails</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <footer>
+        <div class="ui inverted vertical footer segment">
+            <div class="ui container">
+                <div class="ui stackable inverted divided equal height stackable grid">
+                    <div class="three wide column">
+                        <h4>A propos</h4>
+                        <div class="ui inverted link list">
+                            <a class="item" href="#ecole-ancre">Notre École</a>
+                            <a class="item" href="#instrument-ancre">Nos Instruments</a>
+                            <a class="item" href="">Rêgles & Confidentialités</a>
+                        </div>
+                    </div>
+                    <div class="three wide column">
+                        <h4>A propos</h4>
+                        <div class="ui inverted link list">
+                            <a class="item" href="#ecole-ancre">Notre École</a>
+                            <a class="item" href="#instrument-ancre">Nos Instruments</a>
+                            <a class="item" href="">Rêgles & Confidentialités</a>
+                        </div>
+                    </div>
+                    <div class="seven wide column">
+                        <h4>E-Music</h4>
+                        <div class="ui list">
+                            <div class="item">Tous droits réservée.</div>
+                            <div class="item">Site Réalisés par Clément H</div>
+                            <div class="item">Co produit par Kilian L</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="ui card">
-            <div class="content">
-                <div class="header">Projets</div>
-                <div class="meta">
-                    <span>Projets/Preuves</span>
-                </div>
-                <p>Présentation de tout les projets avec les preuves associées</p>
-                <a href="/portfolio/projets/1" class="ui blue basic button">Plus de détails</a>
-            </div>
-        </div>
-    </div>
-    <div class="card-container">
-        <div class="ui card">
-            <div class="content">
-                <div class="header">Veille juridique</div>
-                <div class="meta">
-                    <span>Veille juridique</span>
-                </div>
-                <p>Présentation de ma veille juridique et informationnelle</p>
-                <a href="/portfolio/veille" class="ui blue basic button">Plus de détails</a>
-            </div>
-        </div>
-    </div>
+    </footer>
+</div> <!-- Fermeture div APP-->
+</body>
 </div>
-
-{{> partials/footer}}
+<script src="https://kit.fontawesome.com/9626785de0.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.2/axios.min.js" integrity="sha512-bHeT+z+n8rh9CKrSrbyfbINxu7gsBmSHlDCb3gUF1BjmjDzKhoKspyB71k0CIRBSjE5IVQiMMVBgCWjF60qsvA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.0/dist/semantic.min.css">
+<script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.0/dist/semantic.min.js"></script>
+<script src="/js/modal.js" crossorigin="anonymous"></script>
+</html>
