@@ -213,8 +213,10 @@
 </html>
 <script type="text/javascript" src="/js/projet.js"></script>
 <script>
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
     onload(
-        const projet = URLSearchParams.get('projet')
+        projet = urlParams.get('projet'),
         document.getElementById('b'+projet).classList.add("active"),
         document.getElementById(projet).style.display='flex'
     );
