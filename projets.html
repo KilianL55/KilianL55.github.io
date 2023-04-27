@@ -214,8 +214,7 @@
 <script type="text/javascript" src="/js/projet.js"></script>
 <script>
     onload(
-        projet = URLSearchParams.get('projet'),
-        console.log(projet),
+        const projet = URLSearchParams.get('projet')
         document.getElementById('b'+projet).classList.add("active"),
         document.getElementById(projet).style.display='flex'
     );
