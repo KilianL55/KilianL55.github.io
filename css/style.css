@@ -246,6 +246,7 @@ PAGE PROJETS
     border-radius: 6px;
     text-align: center;
     padding-top: 1px;
+    margin-bottom: 8px;
 }
 
 .projetContainerData > .preuveContainer > .buttonPreuve > a {
