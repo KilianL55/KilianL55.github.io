@@ -239,4 +239,18 @@ PAGE PROJETS
     flex-direction: column;
 }
 
+.projetContainerData > .preuveContainer > .buttonPreuve {
+    width: 150px;
+    height: 20px;
+    background-color: #646461;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 1px;
+}
+
+.projetContainerData > .preuveContainer > .buttonPreuve > a {
+    text-decoration: none;
+    color: white;
+}
+
 /*BGJAR*/
