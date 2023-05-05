@@ -168,6 +168,7 @@ PAGE COMPETENCES
     width: 70%;
     display: flex;
     justify-content: space-between;
+    align-content: flex-start;
     flex-wrap: wrap;
 }
 
@@ -180,6 +181,7 @@ PAGE COMPETENCES
     border: rgba(110, 109, 109, 0.3) 2px solid;
     border-radius: 3px;
     padding: 3px;
+    margin-bottom: 12px;
 }
 
 .projetContainer > .projetCard > .imgContainer{
@@ -235,6 +237,21 @@ PAGE PROJETS
     width: 100%;
     display: flex;
     flex-direction: column;
+}
+
+.projetContainerData > .preuveContainer > .buttonPreuve {
+    width: 150px;
+    height: 20px;
+    background-color: #646461;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 1px;
+    margin-bottom: 8px;
+}
+
+.projetContainerData > .preuveContainer > .buttonPreuve > a {
+    text-decoration: none;
+    color: white;
 }
 
 /*BGJAR*/
