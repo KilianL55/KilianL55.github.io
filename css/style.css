@@ -164,7 +164,6 @@ PAGE COMPETENCES
 }
 
 .projetContainer{
-    overflow-y: auto;
     margin-left: 20px;
     width: 70%;
     display: flex;
@@ -234,6 +233,7 @@ PAGE PROJETS
 }
 
 .projetContainerData{
+    overflow-y: auto;
     margin-left: 12px ;
     width: 100%;
     display: flex;
