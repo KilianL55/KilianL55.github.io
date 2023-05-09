@@ -9,7 +9,7 @@ let num = 1;
 function img(){
     if (num === 1) {
         document.getElementById("img"+ num).style.display="block";
-        document.getElementById("img"+ 11).style.display="none";
+        document.getElementById("img"+ 10).style.display="none";
     }
     if (num === 2) {
         document.getElementById("img"+ num).style.display="block";
@@ -26,6 +26,29 @@ function img(){
     if (num === 5) {
         document.getElementById("img"+ num).style.display="block";
         document.getElementById("img"+ 4).style.display="none";
+    }
+    if (num === 6) {
+        document.getElementById("img"+ num).style.display="block";
+        document.getElementById("img"+ 5).style.display="none";
+    }
+    if (num === 7) {
+        document.getElementById("img"+ num).style.display="block";
+        document.getElementById("img"+ 6).style.display="none";
+    }
+    if (num === 8) {
+        document.getElementById("img"+ num).style.display="block";
+        document.getElementById("img"+ 7).style.display="none";
+    }
+    if (num === 9) {
+        document.getElementById("img"+ num).style.display="block";
+        document.getElementById("img"+ 8).style.display="none";
+    }
+    if (num === 10) {
+        document.getElementById("img"+ num).style.display="block";
+        document.getElementById("img"+ 9).style.display="none";
+    }
+    if (num > 10) {
+        num=1;
     }
     num++;
 }
