@@ -240,8 +240,8 @@ PAGE PROJETS
     flex-direction: column;
 }
 
-.projetContainerData > .preuveContainer > div{
-    width: 20%;
+.projetContainerData > .preuveContainer > .imgHide{
+    width: 40%;
     height: 100%;
     display: none;
 }

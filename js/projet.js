@@ -6,6 +6,7 @@ for (const li of document.querySelectorAll(".item")) {
     });
 }
 let num = 1;
+let num2 = 1;
 function img(){
     if (num === 1) {
         document.getElementById("img"+ num).style.display="block";
@@ -55,7 +56,26 @@ function img(){
     num++;
 }
 
+function img2(){
 
+    if (num2 === 1) {
+        document.getElementById("img"+ num2).style.display="block";
+    }
+    if (num2 === 2) {
+        document.getElementById("img"+ num2).style.display="block";
+        document.getElementById("img"+ 1).style.display="none";
+    }
+    if (num2 === 3) {
+        document.getElementById("img"+ num2).style.display="block";
+        document.getElementById("img"+ 2).style.display="none";
+    }
+    if (num2> 3) {
+        num2=1;
+        document.getElementById("img"+ 3).style.display="none";
+        document.getElementById("img"+ num2).style.display="block";
+    }
+    num2++;
+}
 
 function open1(){
     document.getElementById('1').style.display="flex";
