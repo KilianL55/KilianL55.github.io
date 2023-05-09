@@ -132,3 +132,7 @@ function open5(){
     document.getElementById('3').style.display="none";
     document.getElementById('4').style.display="none";
 }
+
+function showPreuve(){
+    document.getElementsByClassName('preuveContainer')[0].style.display="flex";
+}
