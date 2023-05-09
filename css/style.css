@@ -242,12 +242,12 @@ PAGE PROJETS
 
 .projetContainerData > .preuveContainer > div{
     width: 80%;
+    height: 80%;
     display: none;
 }
 
 .projetContainerData > .preuveContainer > div > img{
     width: 100%;
-    max-height: 500px;
 }
 
 .projetContainerData > .preuveContainer > .buttonPreuve {

@@ -50,6 +50,7 @@ function img(){
     if (num > 10) {
         num=1;
         document.getElementById("img"+ 10).style.display="none";
+        document.getElementById("img"+ num).style.display="block";
     }
     num++;
 }
