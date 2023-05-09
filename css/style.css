@@ -240,7 +240,7 @@ PAGE PROJETS
     flex-direction: column;
 }
 
-.projetContainerData > .preuveContainer{
+.projetContainerData > .preuveContainer > div{
     display: none;
 }
 
