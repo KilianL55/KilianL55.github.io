@@ -7,6 +7,7 @@ for (const li of document.querySelectorAll(".item")) {
 }
 let num = 1;
 let num2 = 1;
+let num3 = 1;
 function img(){
     if (num === 1) {
         document.getElementById("img"+ num).style.display="block";
@@ -77,6 +78,21 @@ function img2(){
     num2++;
 }
 
+function img3(){
+    if (num3 === 1) {
+        document.getElementById("img3"+ num3).style.display="block";
+    }
+    if (num3 === 2) {
+        document.getElementById("img3"+ num3).style.display="block";
+        document.getElementById("img3"+ 1).style.display="none";
+    }
+    if (num3> 2) {
+        num3=1;
+        document.getElementById("img3"+ 2).style.display="none";
+        document.getElementById("img3"+ num3).style.display="block";
+    }
+    num3++;
+}
 function open1(){
     document.getElementById('1').style.display="flex";
     document.getElementById('2').style.display="none";
