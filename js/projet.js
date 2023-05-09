@@ -59,20 +59,20 @@ function img(){
 function img2(){
 
     if (num2 === 1) {
-        document.getElementById("img"+ num2).style.display="block";
+        document.getElementById("img2"+ num2).style.display="block";
     }
     if (num2 === 2) {
-        document.getElementById("img"+ num2).style.display="block";
-        document.getElementById("img"+ 1).style.display="none";
+        document.getElementById("img2"+ num2).style.display="block";
+        document.getElementById("img2"+ 1).style.display="none";
     }
     if (num2 === 3) {
-        document.getElementById("img"+ num2).style.display="block";
-        document.getElementById("img"+ 2).style.display="none";
+        document.getElementById("img2"+ num2).style.display="block";
+        document.getElementById("img2"+ 2).style.display="none";
     }
     if (num2> 3) {
         num2=1;
-        document.getElementById("img"+ 3).style.display="none";
-        document.getElementById("img"+ num2).style.display="block";
+        document.getElementById("img2"+ 3).style.display="none";
+        document.getElementById("img2"+ num2).style.display="block";
     }
     num2++;
 }
