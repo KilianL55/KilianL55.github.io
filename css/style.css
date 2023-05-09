@@ -246,7 +246,7 @@ PAGE PROJETS
     display: none;
 }
 
-.projetContainerData > .preuveContainer > div > img{
+.projetContainerData > .preuveContainer > .imgHide > img{
     width: 100%;
 }
 
