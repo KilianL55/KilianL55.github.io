@@ -5,15 +5,27 @@ for (const li of document.querySelectorAll(".item")) {
         if (active && this !== active) active.classList.toggle("active");
     });
 }
-let num = 0;
+let num = 1;
 function img(){
-    if (num === 12) {
-        num = 1;
+    if (num === 1) {
+        document.getElementById("img"+ num).style.display="block";
         document.getElementById("img"+ 11).style.display="none";
     }
-    while (num < 11) {
+    if (num === 2) {
         document.getElementById("img"+ num).style.display="block";
-        document.getElementById("img"+ num-1).style.display="none";
+        document.getElementById("img"+ 1).style.display="none";
+    }
+    if (num === 3) {
+        document.getElementById("img"+ num).style.display="block";
+        document.getElementById("img"+ 2).style.display="none";
+    }
+    if (num === 4) {
+        document.getElementById("img"+ num).style.display="block";
+        document.getElementById("img"+ 3).style.display="none";
+    }
+    if (num === 5) {
+        document.getElementById("img"+ num).style.display="block";
+        document.getElementById("img"+ 4).style.display="none";
     }
     num++;
 }
