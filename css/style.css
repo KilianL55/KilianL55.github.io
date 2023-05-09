@@ -246,6 +246,11 @@ PAGE PROJETS
     display: none;
 }
 
+.projetContainerData > .preuveContainer > .imgHide3{
+    width: 50%;
+    height: 100%;
+    display: none;
+}
 .projetContainerData > .preuveContainer > .imgHide > img{
     width: 100%;
 }
