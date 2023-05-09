@@ -241,7 +241,12 @@ PAGE PROJETS
 }
 
 .projetContainerData > .preuveContainer > div{
+    width: 80%;
     display: none;
+}
+
+.projetContainerData > .preuveContainer > div > img{
+    width: 100%;
 }
 
 .projetContainerData > .preuveContainer > .buttonPreuve {
