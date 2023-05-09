@@ -6,6 +6,17 @@ for (const li of document.querySelectorAll(".item")) {
     });
 }
 
+let num = 1;
+if (num == 12) {
+    num = 1;
+    document.getElementById("img"+ 11).style.display="none";
+}
+while (num < 11) {
+    document.getElementById("img"+ num).style.display="block";
+    document.getElementById("img"+ num-1).style.display="none";
+}
+
+
 function open1(){
     document.getElementById('1').style.display="flex";
     document.getElementById('2').style.display="none";

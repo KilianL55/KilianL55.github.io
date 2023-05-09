@@ -240,6 +240,10 @@ PAGE PROJETS
     flex-direction: column;
 }
 
+.projetContainerData > .preuveContainer{
+    display: none;
+}
+
 .projetContainerData > .preuveContainer > .buttonPreuve {
     width: 150px;
     height: 20px;
