@@ -299,4 +299,14 @@ PAGE PROJETS
     color: white;
 }
 
+.buttonPreuve{
+    width: 150px;
+    height: 20px;
+    background-color: #646461;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 1px;
+    margin-bottom: 8px;
+}
+
 /*BGJAR*/
