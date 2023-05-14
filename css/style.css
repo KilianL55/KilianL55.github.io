@@ -189,7 +189,7 @@ PAGE COMPETENCES
     flex-direction: column;
 }
 
-.projetContainer > .certifContainer > div{
+.projetContainer > .certifContainer > .imgContainer{
     height: 500px;
     width: 80%;
 }
