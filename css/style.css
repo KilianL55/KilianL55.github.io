@@ -184,6 +184,20 @@ PAGE COMPETENCES
     margin-bottom: 12px;
 }
 
+.projetContainer > .certifContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.projetContainer > .certifContainer > div{
+    height: 500px;
+    width: 80%;
+}
+.projetContainer > .certifContainer > div > img{
+    width: 100%;
+}
+
+
 .projetContainer > .projetCard > .imgContainer{
     max-height: fit-content;
     width: fit-content;
@@ -242,6 +256,7 @@ PAGE PROJETS
 
 .projetContainerData > .preuveContainer{
     display : flex;
+    flex-direction: column;
 }
 
 .projetContainerData > .preuveContainer > .imgHide{
@@ -257,6 +272,16 @@ PAGE PROJETS
 }
 .projetContainerData > .preuveContainer > .imgHide > img{
     width: 100%;
+}
+
+#img1{
+    display: block;
+}
+#img2{
+    display: block;
+}
+#img3{
+    display: block;
 }
 
 .projetContainerData > .preuveContainer > .buttonPreuve {

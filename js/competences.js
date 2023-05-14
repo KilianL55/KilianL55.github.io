@@ -61,3 +61,4 @@ function openDeveloppement(){
     document.getElementById("projet").style.display="none";
     document.getElementById("service").style.display="none";
 }
+
