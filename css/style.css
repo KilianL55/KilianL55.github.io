@@ -241,7 +241,7 @@ PAGE PROJETS
 }
 
 .projetContainerData > .preuveContainer{
-    display : none;
+    display : flex;
 }
 
 .projetContainerData > .preuveContainer > .imgHide{
