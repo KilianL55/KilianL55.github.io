@@ -273,16 +273,6 @@ PAGE PROJETS
     width: 100%;
 }
 
-#img1{
-    display: block;
-}
-#img2{
-    display: block;
-}
-#img3{
-    display: block;
-}
-
 .projetContainerData > .preuveContainer > .buttonPreuve {
     width: 150px;
     height: 20px;
