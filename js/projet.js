@@ -8,6 +8,7 @@ for (const li of document.querySelectorAll(".item")) {
 let num = 1;
 let num2 = 1;
 let num3 = 1;
+let num4 = 1;
 function img(){
     if (num === 1) {
         document.getElementById("img"+ num).style.display="block";
@@ -92,6 +93,35 @@ function img3(){
         document.getElementById("img3"+ num3).style.display="block";
     }
     num3++;
+}
+
+function img4(){
+    if (num4 === 1) {
+        document.getElementById("img4"+ num4).style.display="block";
+    }
+    if (num4 === 2) {
+        document.getElementById("img4"+ num4).style.display="block";
+        document.getElementById("img4"+ 1).style.display="none";
+    }
+    if (num4 === 3) {
+        document.getElementById("img4"+ num4).style.display="block";
+        document.getElementById("img4"+ 2).style.display="none";
+    }
+    if (num4 === 4) {
+        document.getElementById("img4"+ num4).style.display="block";
+        document.getElementById("img4"+ 3).style.display="none";
+    }
+    if (num4 === 5) {
+        document.getElementById("img4"+ num4).style.display="block";
+        document.getElementById("img4"+ 4).style.display="none";
+    }
+    if (num4 > 5) {
+        num4=1;
+        document.getElementById("img4"+ 5).style.display="none";
+        document.getElementById("img4"+ num4).style.display="block";
+    }
+
+    num4++;
 }
 function open1(){
     document.getElementById('1').style.display="flex";
